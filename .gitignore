@@ -1,0 +1,40 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# Local environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build/package artifacts
+build/
+dist/
+*.egg-info/
+
+# Jupyter/editor metadata
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# OS and downloaded-file metadata
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
+
+# Logs
+*.log
+
+# Generated zone-axis finder outputs
+*_target_angles.csv
+*_indexed_spots.csv
+*_predicted_zone_pattern.png
+*_fitted_diffraction_pattern.png
+*_zone_axis_map.png
+
+# Old stuff
+old_stuff/
