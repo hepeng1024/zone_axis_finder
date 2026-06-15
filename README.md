@@ -20,7 +20,7 @@ terminal where `conda` is available.
 Using Git:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/hepeng1024/zone_axis_finder
 cd find-zone-axis
 ```
 
