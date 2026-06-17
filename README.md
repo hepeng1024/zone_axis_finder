@@ -21,11 +21,11 @@ Using Git:
 
 ```bash
 git clone https://github.com/hepeng1024/zone_axis_finder
-cd find-zone-axis
+cd find_zone_axis
 ```
 
 Or download the project ZIP from GitHub, unzip it, and open a terminal inside
-the extracted `find-zone-axis` folder.
+the extracted `find_zone_axis` folder.
 
 ## 3. Create the Environment
 
