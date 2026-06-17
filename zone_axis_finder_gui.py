@@ -1688,8 +1688,8 @@ class ZoneAxisFinderGUI(tk.Tk):
             "output_prefix": "",
             "alpha_min": "-35",
             "alpha_max": "35",
-            "beta_min": "-30",
-            "beta_max": "30",
+            "beta_min": "-20",
+            "beta_max": "20",
             "holder_order": "xy",
             "image_to_holder_rotation_deg": "90",
             "center_x": "",
@@ -2182,7 +2182,7 @@ class ZoneAxisFinderGUI(tk.Tk):
             row,
             "Advanced: Tilt Limits and Calibration",
             "Alpha min/max and Beta min/max: the holder range used to mark target axes as reachable or not reachable. "
-            "For your double-tilt holder the default values are alpha -35 to 35 deg and beta -30 to 30 deg.\n\n"
+            "For your double-tilt holder the default values are alpha -35 to 35 deg and beta -20 to 20 deg.\n\n"
             "Holder order: controls the rotation sequence. Use xy for R = Rx(alpha) @ Ry(beta), which is the recommended "
             "default for many serial double-tilt TEM holders because the beta axis is carried by alpha tilt. Use yx for "
             "R = Ry(beta) @ Rx(alpha) only if your own calibration shows that convention fits better.\n\n"
